@@ -9,6 +9,8 @@ Copying the data from the included `.csv` dataset:
 * Deploy your server to the internet
 * Test your API with a headless browser like Postman
 
+Add a link to your [deployed API](https://tom-express3.herokuapp.com/) here.
+
 ## Notes
 
 * Your server should include appropriate CORS headers
