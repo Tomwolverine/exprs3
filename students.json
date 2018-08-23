@@ -1,0 +1,32 @@
+[
+ {
+  "ID": "1",
+  "FirstName": "Alice",
+  "LastName": "Zephyr",
+  "HomeTown": "Seattle"
+ },
+ {
+  "ID": "2",
+  "FirstName": "Bob",
+  "LastName": "Yellow",
+  "HomeTown": "Vancouver"
+ },
+ {
+  "ID": "3",
+  "FirstName": "Claire",
+  "LastName": "Xylitol",
+  "HomeTown": "Toledo"
+ },
+ {
+  "ID": "4",
+  "FirstName": "Daniel",
+  "LastName": "Winston",
+  "HomeTown": "Akron"
+ },
+ {
+  "ID": "5",
+  "FirstName": "Edina",
+  "LastName": "Veritas",
+  "HomeTown": "Wichita"
+ }
+]
