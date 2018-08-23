@@ -1,0 +1,26 @@
+{
+  "name": "exprs3",
+  "version": "1.0.0",
+  "description": "Copying the data from the included `.csv` dataset:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomwolverine/exprs3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomwolverine/exprs3/issues"
+  },
+  "homepage": "https://github.com/Tomwolverine/exprs3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "convert-csv-to-json": "0.0.13",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
