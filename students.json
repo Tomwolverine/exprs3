@@ -1,32 +1,32 @@
 [
- {
-  "ID": "1",
-  "FirstName": "Alice",
-  "LastName": "Zephyr",
-  "HomeTown": "Seattle"
- },
- {
-  "ID": "2",
-  "FirstName": "Bob",
-  "LastName": "Yellow",
-  "HomeTown": "Vancouver"
- },
- {
-  "ID": "3",
-  "FirstName": "Claire",
-  "LastName": "Xylitol",
-  "HomeTown": "Toledo"
- },
- {
-  "ID": "4",
-  "FirstName": "Daniel",
-  "LastName": "Winston",
-  "HomeTown": "Akron"
- },
- {
-  "ID": "5",
-  "FirstName": "Edina",
-  "LastName": "Veritas",
-  "HomeTown": "Wichita"
- }
+    {
+    "ID": "1",
+    "firstName": "Alice",
+    "lastName": "Zephyr",
+    "homeTown": "Seattle"
+    },
+    {
+    "ID": "2",
+    "firstName": "Bob",
+    "lastName": "Yellow",
+    "homeTown": "Vancouver"
+    },
+    {
+    "ID": "3",
+    "firstName": "Claire",
+    "lastName": "Xylitol",
+    "homeTown": "Toledo"
+    },
+    {
+    "ID": "4",
+    "firstName": "Daniel",
+    "lastName": "Winston",
+    "homeTown": "Akron"
+    },
+    {
+    "ID": "5",
+    "firstName": "Edina",
+    "lastName": "Veritas",
+    "homeTown": "Wichita"
+    }
 ]
