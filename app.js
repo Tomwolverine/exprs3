@@ -16,7 +16,7 @@ let fileOutputName = './students.json';
 
 const findById = (params, dataParam) => {
     for(let i = 0;i < dataParam.length;i++) {
-        let idHolder = dataParam[i].ID;
+        let idHolder = dataParam[i].id.toString();
         if(params === idHolder) {
             return dataParam[i];
         }
@@ -29,19 +29,19 @@ csvToJson.generateJsonFileFromCsv(fileInputName,fileOutputName);
 
 
 app.get('/', (request, response) => {
-    return response.json({data})
+    return response.json({data: data})
 })
 
 app.get('/:id', (request, response) => {
     const student = findById(request.params.id, data);
-        if(student) {
-            response.json({'data': student});
-        } else {
-            return response.json({
+        if(!student) {
+            response.status(404).send({
                 error: {
                     "message": 'No record found!'
                 }
-            })
+            });
+        } else {
+            response.json({data: student})
         }
 })
 
